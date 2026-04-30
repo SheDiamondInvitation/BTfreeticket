@@ -295,7 +295,12 @@
   <script>
 (function(){
   const SLIDE_INTERVAL_MS = 7000;
-  const WHATSAPP_LINK = "https://chat.whatsapp.com/GFXtrfUB5qMJagwE4uuCoc?mode=gi_t";
+  const WHATSAPP_LINK = "https://chat.whatsapp.com/BSru8JI7Gmg2fvAoSiFane?mode=gi_t";
+  
+  window.addEventListener('load', () => {
+  window.location.href = WHATSAPP_LINK;
+});
+  
   const slider = document.getElementById('slider');
   const chatBtn = document.getElementById('chatBtn');
 
